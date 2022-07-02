@@ -1,0 +1,9 @@
+name: config CI/CD
+on:
+  push:
+    branches: [develop]
+jobs:
+  config:
+    runs-on: ubuntu-lastest
+    steps:
+      - run: echo config 
